@@ -1,12 +1,21 @@
-# Jarvis Voice Assistant
+# Jarvis Voice Assistant 🎙️
 
-A Python voice assistant that can:
-- Play songs
-- Tell time
-- Search Wikipedia
-- Tell jokes
+A Python-based voice assistant that can perform basic tasks using speech recognition.
 
-Technologies:
+## 🚀 Features
+- 🎵 Play songs on YouTube
+- ⏰ Tell current time
+- 📚 Search Wikipedia
+- 😂 Tell jokes
+
+## 🛠️ Technologies Used
 - Python
 - SpeechRecognition
 - pyttsx3
+- pywhatkit
+- Wikipedia API
+
+## ▶️ How to Run
+```bash
+pip install -r requirements.txt
+python jarvis.py
